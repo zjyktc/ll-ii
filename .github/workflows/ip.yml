@@ -2,7 +2,7 @@ name: ip
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: 01 */3 * * *
 
 jobs:
   build:
